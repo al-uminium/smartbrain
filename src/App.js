@@ -80,7 +80,7 @@ class App extends Component {
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" /> 
         <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
         <Particles className="particles" params={particleOptions} />
-        <Navigation />
+        {/* {<Navigation />} */}
         <Logo />
         {/* {<Rank /> } */}
         <ImageLinkForm onInputChange={this.onInputChange} onButtonSubmit={this.onButtonSubmit} />
